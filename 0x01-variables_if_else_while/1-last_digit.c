@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - annoying
+ * main - a random num for variable n
  *
  * Return: 0
  */
@@ -30,3 +30,5 @@ if (x < 6 && x != 0)
 }
 printf("\n");
 return (0);
+
+}
