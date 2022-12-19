@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdout.h>
+#include <stdio.h>
 /**
 * _puts - prints a string
 * @str: the string
@@ -10,8 +10,9 @@ void _puts(char *str)
 int i = 0;
 while (str[i] != '\0')
 {
-_putchar(str[i]);
+puts(str[i]);
 i++;
+return (0);
 }
-_putchar('\n');
+
 }
