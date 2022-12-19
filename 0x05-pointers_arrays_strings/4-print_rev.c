@@ -12,7 +12,7 @@ while (s[n] != '\0')
 n++;
 for (i = n - 1; i >= 0; i--)
 {
-	print_rev(s[i]);
+	putchar(s[i]);
 }
-print_rev('\n');
+putchar('\n');
 }
