@@ -10,7 +10,8 @@
 void swap_int(int *a, int *b)
 {
 int s;
-{
-	_putchar("*a = *b/n", a, b);
-}
+s = *a;
+*a = *b;
+*b = s;
+
 }
