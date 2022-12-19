@@ -12,7 +12,7 @@ while (s[n] != '\0')
 n++;
 for (i = n - 1; i >= 0; i--)
 {
-	putchar(s[i]);
+_Putchar(s[i]);
 }
-putchar('\n');
+_Putchar('\n');
 }
