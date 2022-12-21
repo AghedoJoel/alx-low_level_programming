@@ -3,7 +3,7 @@
 /**
 * cap_string - capitalizes all words in a string
 * @s: string
-* Return: 0
+* Return: address of s
 *
 */
 char *cap_string(char *s)
@@ -27,5 +27,5 @@ if (a[j] == *(s + i - 1))
 }
 i++;
 }
-return (0);
+return (s);
 }
