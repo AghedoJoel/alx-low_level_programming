@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
 * print_buffer - prints a buffer
 * @b: buffer to print
 * @size: size of buffer
 *
-* Return: 0
+* Return: address of s
 */
 void print_buffer(char *b, int size)
 {
@@ -25,4 +26,5 @@ putchar('\n');
 }
 if (size == 0)
 putchar('\n');
+return (s);
 }
