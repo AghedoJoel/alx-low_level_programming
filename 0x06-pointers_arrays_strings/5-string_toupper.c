@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * string_toupper - change lowercase to uppercase
 * @s:string
-* Return: 0
+* Return: char
 *
 */
 char *string_toupper(char *s)
@@ -15,5 +16,5 @@ if (*(s + i) >= 'a' && *(s + i) <= 'z')
 *(s + i) -= 'a' - 'A';
 i++;
 }
-return (0);
+return (s);
 }
