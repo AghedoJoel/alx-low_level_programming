@@ -3,7 +3,7 @@
 /**
 * *leet - encodes a string into 1337
 * @s: string to encode
-* Return: 0
+* Return: address of s
 */
 char *leet(char *s)
 {
@@ -18,5 +18,5 @@ if (a[j] == s[i])
 s[i] = b[j];
 }
 }
-return (0);
+return (s);
 }
