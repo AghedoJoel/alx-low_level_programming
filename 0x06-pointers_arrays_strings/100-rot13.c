@@ -4,7 +4,7 @@
 * *rot13 - encodes a string into rot13
 * @s: string to encode
 *
-* Return: 0
+* Return: address of s
 */
 char *rot13(char *s)
 {
@@ -22,5 +22,5 @@ break;
 }
 }
 }
-return (0);
+return (s);
 }
